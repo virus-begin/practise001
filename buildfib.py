@@ -13,4 +13,4 @@ def send_number():
     try:
         return str(fibonnacci(int(request.args['n'])))
     except ValueError:
-        return "Plese use proper integer"
+        return "Plese use proper integer in input"
